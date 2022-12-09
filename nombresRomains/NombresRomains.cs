@@ -39,6 +39,9 @@ namespace nombresRomains
                 case 8:
                     retour = "VIII";
                     break;
+                case 9:
+                    retour = "IX";
+                    break;
                 default:
                     retour = "";
                     break;
