@@ -48,6 +48,12 @@ namespace nombresRomains
                 case 11:
                     retour = "XI";
                     break;
+                case 12:
+                    retour = "XII";
+                    break;
+                case 13:
+                    retour = "XIII";
+                    break;
                 default:
                     retour = "";
                     break;
