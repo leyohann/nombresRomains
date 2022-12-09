@@ -60,6 +60,18 @@ namespace nombresRomains.test
             // ALORS ON OBTIENT VII
             Assert.Equal("VII", resultat);
         }
+        [Fact]
+        public void Test8()
+        {
+            // ETANT DONNE LE NOMBRE 8
+            const int nombrearabe = 8;
+
+            // QUAND ON CONVERTIT EN NOMBRE ROMAIN
+            var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
+            // ALORS ON OBTIENT VIII
+            Assert.Equal("VIII", resultat);
+        }
+
     }
 }
 
