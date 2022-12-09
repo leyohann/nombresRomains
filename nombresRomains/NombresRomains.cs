@@ -27,6 +27,9 @@ namespace nombresRomains
                 case 4:
                     retour = "IV";
                     break;
+                case 5:
+                    retour = "V";
+                    break;
                 default:
                     retour = "";
                     break;
