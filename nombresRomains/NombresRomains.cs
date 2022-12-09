@@ -69,8 +69,44 @@ namespace nombresRomains
                 case 18:
                     retour = "XVIII";
                     break;
+                case 19:
+                    retour = "XIX";
+                    break;
+                case 20:
+                    retour = "XX";
+                    break;
+                case 21:
+                    retour = "XXI";
+                    break;
+                case 22:
+                    retour = "XXII";
+                    break;
+                case 23:
+                    retour = "XXIII";
+                    break;
+                case 24:
+                    retour = "XXIV";
+                    break;  
+                case 25:
+                    retour = "XXV";
+                    break;
+                case 26:
+                    retour = "XXVI";
+                    break;
+                case 27:
+                    retour = "XXVII";
+                    break;
+                case 28:
+                    retour = "XXVIII";
+                    break;
+                case 29:
+                    retour = "XXIX";
+                    break;
+                case 30:
+                    retour = "XXX";
+                    break;
 
-                default:
+                        default:
                     retour = "";
                     break;
             }
