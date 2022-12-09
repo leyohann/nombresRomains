@@ -76,6 +76,17 @@ namespace nombresRomains.test
             // ALORS ON OBTIENT XI
             Assert.Equal("XI", resultat);
         }
+        [Fact]
+        public void Test12()
+        {
+            // ETANT DONNE LE NOMBRE 12
+            const int nombrearabe = 12;
+
+            // QUAND ON CONVERTIT EN NOMBRE ROMAIN
+            var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
+            // ALORS ON OBTIENT XII
+            Assert.Equal("XII", resultat);
+        }
 
     }
 }
