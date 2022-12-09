@@ -47,6 +47,21 @@ namespace nombresRomains.test
             Assert.Equal($"X{attendu}", resultat);
 
         }
+        [Theory]
+        [InlineData(15)]
+        [InlineData(16)]
+        [InlineData(17)]
+        [InlineData(18)]
+        public void testInferieurA19(int x)
+        {
+            //ETANT DONNE un nombre 9<x<14
+            //QUAND on le convertit en nombre romain
+            var resultat = ConvertisseurNombreRomain.Convertir(x);
+            //ON obtient XV+(x-15)*I
+            var attendu = new string('I', x - 15);
+            Assert.Equal($"XV{attendu}", resultat);
+
+        }
 
         [Fact]
         public void Test4()
@@ -83,14 +98,7 @@ namespace nombresRomains.test
 
         }
 
-        [Fact]
-        public void Test15()
-        {
-            //ETANT DONNE le nombre 15
-            const int nombrearabe = 15;
-            //QUAND on convertit en nombre romain
-            var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
-        }
+        
 
     }
 }
