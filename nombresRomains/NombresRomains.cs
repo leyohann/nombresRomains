@@ -45,6 +45,9 @@ namespace nombresRomains
                 case 10:
                     retour = "X";
                     break;
+                case 11:
+                    retour = "XI";
+                    break;
                 default:
                     retour = "";
                     break;
