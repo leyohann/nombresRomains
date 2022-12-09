@@ -54,6 +54,9 @@ namespace nombresRomains
                 case 13:
                     retour = "XIII";
                     break;
+                case 14:
+                    retour = "XIV";
+                    break;
                 default:
                     retour = "";
                     break;

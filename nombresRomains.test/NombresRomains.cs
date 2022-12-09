@@ -83,6 +83,15 @@ namespace nombresRomains.test
 
         }
 
+        [Fact]
+        public void Test15()
+        {
+            //ETANT DONNE le nombre 15
+            const int nombrearabe = 15;
+            //QUAND on convertit en nombre romain
+            var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
+        }
+
     }
 }
 
