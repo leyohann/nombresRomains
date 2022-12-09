@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace nombresRomains
+{
+    public class ConvertisseurNombreRomain
+    {
+        public static string Convertir(int nombrearabe)
+        {
+            string retour = "";
+                if (nombrearabe == 1)
+                {
+                    retour = "I";
+                }
+
+                return retour;
+        }
+    }
+}

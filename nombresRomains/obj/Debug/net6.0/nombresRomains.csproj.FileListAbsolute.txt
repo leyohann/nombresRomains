@@ -1,0 +1,12 @@
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\bin\Debug\net6.0\nombresRomains.deps.json
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\bin\Debug\net6.0\nombresRomains.dll
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\bin\Debug\net6.0\nombresRomains.pdb
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\obj\Debug\net6.0\nombresRomains.csproj.AssemblyReference.cache
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\obj\Debug\net6.0\nombresRomains.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\obj\Debug\net6.0\nombresRomains.AssemblyInfoInputs.cache
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\obj\Debug\net6.0\nombresRomains.AssemblyInfo.cs
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\obj\Debug\net6.0\nombresRomains.csproj.CoreCompileInputs.cache
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\obj\Debug\net6.0\nombresRomains.dll
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\obj\Debug\net6.0\refint\nombresRomains.dll
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\obj\Debug\net6.0\nombresRomains.pdb
+C:\Users\lbarc\source\repos\nombresRomains\nombresRomains\obj\Debug\net6.0\ref\nombresRomains.dll
