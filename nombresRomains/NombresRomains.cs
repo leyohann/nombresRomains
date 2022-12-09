@@ -10,21 +10,29 @@ namespace nombresRomains
     {
         public static string Convertir(int nombrearabe)
         {
-            string retour = "";
-                if (nombrearabe == 1)
-                {
+            string retour;
+            switch (nombrearabe)
+            {
+                case 0:
+                    throw new NotImplementedException();
+                case 1:
                     retour = "I";
-                }
-                else if (nombrearabe == 2)
-                {
+                    break;
+                case 2:
                     retour = "II";
-                }
-                else if (nombrearabe == 3)
-                {
+                    break;
+                case 3:
                     retour = "III";
-                }
+                    break;
+                case 4:
+                    retour = "IV";
+                    break;
+                default:
+                    retour = "";
+                    break;
+            }
 
-                return retour;
+            return retour;
         }
     }
 }
