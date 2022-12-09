@@ -16,6 +16,22 @@ namespace nombresRomains.test
             Assert.Equal(attendu, resultat);
         }
 
+        [Theory]
+        [InlineData(5)]
+        [InlineData(6)]
+        [InlineData(7)]
+        [InlineData(8)]
+        public void testInférieurA9(int x)
+        {
+            //ETANT DONNE un nombre 4<x<9
+            //QUAND on le convertit en nombre romain
+            var resultat = ConvertisseurNombreRomain.Convertir(x);
+            //ON obtient V+(x-5)*I
+            var attendu = new string('I', x - 5);
+            Assert.Equal($"V{attendu}",resultat);
+
+        }
+
         [Fact]
         public void Test4()
         {
@@ -26,50 +42,6 @@ namespace nombresRomains.test
             var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
             // ALORS ON OBTIENT IV
             Assert.Equal("IV", resultat);
-        }
-        [Fact]
-        public void Test5()
-        {
-            // ETANT DONNE LE NOMBRE 5
-            const int nombrearabe = 5;
-
-            // QUAND ON CONVERTIT EN NOMBRE ROMAIN
-            var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
-            // ALORS ON OBTIENT V
-            Assert.Equal("V", resultat);
-        }
-        [Fact]
-        public void Test6()
-        {
-            // ETANT DONNE LE NOMBRE 6
-            const int nombrearabe = 6;
-
-            // QUAND ON CONVERTIT EN NOMBRE ROMAIN
-            var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
-            // ALORS ON OBTIENT VI
-            Assert.Equal("VI", resultat);
-        }
-        [Fact]
-        public void Test7()
-        {
-            // ETANT DONNE LE NOMBRE 7
-            const int nombrearabe = 7;
-
-            // QUAND ON CONVERTIT EN NOMBRE ROMAIN
-            var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
-            // ALORS ON OBTIENT VII
-            Assert.Equal("VII", resultat);
-        }
-        [Fact]
-        public void Test8()
-        {
-            // ETANT DONNE LE NOMBRE 8
-            const int nombrearabe = 8;
-
-            // QUAND ON CONVERTIT EN NOMBRE ROMAIN
-            var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
-            // ALORS ON OBTIENT VIII
-            Assert.Equal("VIII", resultat);
         }
 
     }
