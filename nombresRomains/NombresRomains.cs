@@ -15,6 +15,10 @@ namespace nombresRomains
                 {
                     retour = "I";
                 }
+                else if (nombrearabe == 2)
+                {
+                    retour = "II";
+                }
 
                 return retour;
         }
