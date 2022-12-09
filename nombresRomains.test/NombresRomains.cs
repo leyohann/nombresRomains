@@ -23,6 +23,17 @@ namespace nombresRomains.test
             //ALORS on obtient 'II'
             Assert.Equal("II", resultat);
         }
+
+        [Fact]
+        public void test3()
+        {
+            //ETANT DONNE le nombre 3
+            const int nombrearabe = 3;
+            //QUAND on le convertit en nomnbre romain
+            var resultat = ConvertisseurNombreRomain.Convertir(nombrearabe);
+            //ALORS on obtient 'III'
+            Assert.Equal("III", resultat);
+        }
     }
 }
 

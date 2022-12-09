@@ -19,6 +19,10 @@ namespace nombresRomains
                 {
                     retour = "II";
                 }
+                else if (nombrearabe == 3)
+                {
+                    retour = "III";
+                }
 
                 return retour;
         }
