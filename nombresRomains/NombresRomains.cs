@@ -30,6 +30,10 @@ namespace nombresRomains
                 case 5:
                     retour = "V";
                     break;
+                case 6:
+                    retour = "VI";
+                    break;
+                
                 default:
                     retour = "";
                     break;
